@@ -23,10 +23,10 @@ Every time it takes me long to build a new vim environment on a new machine. Dec
         cmake -G "Unix Makefiles" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
         cmake --build . --target ycm_core
 ----
-    Refer to: 
+Refer to: 
 
         https://github.com/ycm-core/YouCompleteMe/blob/master/README.md
         https://github.com/VundleVim/Vundle.vim#about
         https://www.jianshu.com/p/a0b452f8f720
     
-    to gain more information
+to gain more detailed information.
