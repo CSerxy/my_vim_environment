@@ -1,4 +1,5 @@
 set nocompatible              " be iMproved, required
+syntax on
 filetype off                  " required
 
 set backspace=2   " Backspace deletes like most programs in insert mode
