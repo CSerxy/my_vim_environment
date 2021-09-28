@@ -17,6 +17,8 @@ Every time it takes me long to build a new vim environment on a new machine. Dec
     We'll create a new folder where build files will be placed. Run the
     following:
 
+        cd ~/.vim/bundle/YouCompleteMe
+        python3 install.py
         cd ~
         mkdir ycm_build
         cd ycm_build
