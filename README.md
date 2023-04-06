@@ -21,6 +21,7 @@ Every time it takes me long to build a new vim environment on a new machine. Dec
         
         cd ~/.vim/bundle/
         git clone https://github.com/ycm-core/YouCompleteMe.git
+        brew install cmake python go nodejs
         cd YouCompleteMe
         python3 install.py
         cd ~
