@@ -7,7 +7,8 @@ Every time it takes me long to build a new vim environment on a new machine. Dec
 
 2. ** Ensure that your version of Vim is at least 7.4.1578 and that it has support for Python 2 or Python 3 scripting **.
 
-3. **Install YCM** with Vundle. Basically, just launch vim and run :PluginInstall
+3.0 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/plugin/Vundle.vim
+3.1 **Install YCM** with Vundle. Basically, just launch vim and run :PluginInstall
 
 4. **Install libclang** by conda install -c rapidsai libclang
 
@@ -16,8 +17,10 @@ Every time it takes me long to build a new vim environment on a new machine. Dec
 
     We'll create a new folder where build files will be placed. Run the
     following:
-
-        cd ~/.vim/bundle/YouCompleteMe
+        
+        cd ~/.vim/bundle/
+        git clone https://github.com/ycm-core/YouCompleteMe.git
+        cd YouCompleteMe
         python3 install.py
         cd ~
         mkdir ycm_build
